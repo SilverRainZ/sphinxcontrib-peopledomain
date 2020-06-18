@@ -2,8 +2,7 @@
  sphinxcontrib-peopledomain
 ===========================
 
-This package contains a domain and corresponding directives and roles for
-describing people.
+Sphinx domain for describing people.
 
 If you use sphinx as blog, you can use this domain to manange your friends link.
 
