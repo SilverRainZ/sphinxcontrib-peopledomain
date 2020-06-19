@@ -9,7 +9,10 @@ If you use sphinx as blog, you can use this domain to manange your friends link.
 Installation
 ============
 
-.. note:: TODO: upload to pip
+::
+
+    pip install sphinxcontrib-peopledomain
+
 
 Configuration
 =============
