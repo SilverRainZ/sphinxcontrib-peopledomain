@@ -23,7 +23,11 @@ from sphinx.environment import BuildEnvironment
 from sphinx.locale import _, __
 from sphinx.roles import XRefRole
 from sphinx.util import logging
-from sphinx.util.nodes import make_id, make_refnode
+from sphinx.util.nodes import make_refnode
+try:
+    from sphinx.util.nodes import make_id
+except Exception:
+    from docutils.nodes import make_id
 
 
 logger = logging.getLogger(__name__)

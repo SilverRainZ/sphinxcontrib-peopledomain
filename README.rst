@@ -43,4 +43,5 @@ Changelog
 0.1
   Provide the "ppl" domain, "friend" directive and "friend" role.
 0.2
-  - Reanme the namespace from ``sphinxcontrib`` to ``sphinxnotes``
+  - Reanme the namespace from "sphinxcontrib" to "sphinxnotes"
+  - Fix the import error of ``make_id``
