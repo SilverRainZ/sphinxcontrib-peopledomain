@@ -1,6 +1,6 @@
 """
-    sphinxcontrib.peopledomain
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    sphinxnotes.peopledomain
+    ~~~~~~~~~~~~~~~~~~~~~~~~
 
     The domain for describing people.
 

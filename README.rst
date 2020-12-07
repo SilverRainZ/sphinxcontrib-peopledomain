@@ -1,5 +1,5 @@
 ===========================
- sphinxcontrib-peopledomain
+ sphinxnotes-peopledomain
 ===========================
 
 Sphinx domain for describing people.
@@ -11,15 +11,15 @@ Installation
 
 ::
 
-    pip install sphinxcontrib-peopledomain
+    pip install sphinxnotes-peopledomain
 
 
 Configuration
 =============
 
-Add ``'sphinxcontrib.peopledomain'`` to the ``extensions`` list in ``conf.py``::
+Add ``'sphinxnotes.peopledomain'`` to the ``extensions`` list in ``conf.py``::
 
-    extensions = [ 'sphinxcontrib.peopledomain' ]
+    extensions = [ 'sphinxnotes.peopledomain' ]
 
 
 Usage
@@ -42,3 +42,5 @@ Changelog
 
 0.1
   Provide the "ppl" domain, "friend" directive and "friend" role.
+0.2
+  - Reanme the namespace from ``sphinxcontrib`` to ``sphinxnotes``

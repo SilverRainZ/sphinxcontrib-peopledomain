@@ -17,10 +17,10 @@ def readme():
 
 
 setup(
-    name='sphinxcontrib-peopledomain',
+    name='sphinxnotes-peopledomain',
     version='0.1',
-    url='https://github.com/SilverRainZ/sphinxcontrib-peopledomain',
-    # download_url='', # TODO
+    url='https://github.com/sphinx-notes/peopledomain',
+    download_url='https://pypi.org/project/sphinxnotes-peopledomain/',
     license='BSD',
     author='Shengyu Zhang',
     # author_email='', # I dont want write it here
@@ -44,5 +44,5 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=requires,
-    namespace_packages=['sphinxcontrib'],
+    namespace_packages=['sphinxnotes'],
 )
